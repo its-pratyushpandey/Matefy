@@ -15,6 +15,7 @@ const Navbar = () => {
   //   onSuccess: () => queryClient.invalidateQueries({ queryKey: ["authUser"] }),
   // });
 
+  
   const { logoutMutation } = useLogout();
 
   return (
