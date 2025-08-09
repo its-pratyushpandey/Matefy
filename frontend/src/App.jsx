@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from "react-router";
 
+
 import HomePage from "./pages/HomePage.jsx";
 import FriendsPage from "./pages/FriendsPage.jsx";
 import SignUpPage from "./pages/SignUpPage.jsx";
