@@ -12,6 +12,7 @@ const useLogout = () => {
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ["authUser"] }),
   });
 
+  
   return { logoutMutation, isPending, error };
 };
 export default useLogout;
